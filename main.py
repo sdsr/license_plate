@@ -17,7 +17,7 @@ except Exception as e:
     print("Tesseract 실행 오류:", e)
 
 # 번호판 이미지 로드
-image = cv2.imread("license_plate.png")
+image = cv2.imread("license_plate/license_plate1.png")
 
 # 그레이스케일 변환
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
